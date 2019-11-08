@@ -86,9 +86,9 @@ gray:
           #          - name: HttpMethod
           #          - name: HttpURI
           #          - name: HttpReceive
-          - name: HttpHeader
-        #          - name: HttpParameter
-        #            value: version,test
+#          - name: HttpHeader
+          - name: HttpParameter
+            value: version,test
         path-patterns: /*
   load:
     enabled: true
